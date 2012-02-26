@@ -81,7 +81,7 @@ JSON example
     }
 
 1. Basic parsing and data access
-----------------------------------------
+--------------------------------
 
 If you are parsing JSON object with known structure, you can use basic data access methods. It's easy to use and safe.
 
