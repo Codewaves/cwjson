@@ -80,8 +80,8 @@ JSON example
        }
     }
 
-1. Basic parsing and data access
---------------------------------
+Basic parsing and data access
+-----------------------------
 
 If you are parsing JSON object with known structure, you can use basic data access methods. It's easy to use and safe.
 
@@ -119,8 +119,8 @@ Program will print the following:
       View from 15th Floor 800x600
       116 943 234 38793
 
-1.1 null value handling
------------------------
+null value handling
+-------------------
 
 JSON data can contain "null" values. Let assume that "Thumbnails" object can be null. Trying to access it, following code
 
@@ -131,8 +131,8 @@ will throw an exception "value is not an object" because "Thumbnail" is not an o
       if (!image.isNull("Thumbnail"))
          std::cout << image.getObject("Thumbnail").getString("Url").getValueStr();
 
-2. JSON generation
-------------------
+JSON generation
+---------------
 
 Let compose JSON example. 
 
@@ -168,8 +168,8 @@ Let compose JSON example.
 
 At the program end "out" stringstream will contain formated JSON object string.
 
-3. JSON object tree traversal
------------------------------
+JSON object tree traversal
+--------------------------
 
 If you don't know the JSON data structure, you can use generic value access methods to traverse the tree. It's 
 less safe comparing to normal data access, because you need to be careful with data pointers. 
@@ -276,8 +276,8 @@ Following example produces same result, but code is safe and simple.
          }
       }
 
-4. Changing existing JSON tree
-------------------------------
+Changing existing JSON tree
+---------------------------
 
 Simply get reference or pointer to an existing value and use setName()/setValue()/removeValue() methods. You 
 can change JSON data in any way you want, for example - parse input, modify data, generate JSON object string.     
