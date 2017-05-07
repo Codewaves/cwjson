@@ -287,9 +287,9 @@ Author
 ------
 
 Sergej Kravcenko  
-[http://digital.codewaves.com]  
+[http://www.codewaves.com]  
 sergej@codewaves.com  
 
 [github]: https://github.com/Codewaves/cwjson
-[my blog]: http://digital.codewaves.com/
-[http://digital.codewaves.com]: http://digital.codewaves.com/
+[my blog]: http://www.codewaves.com/
+[http://www.codewaves.com]: http://www.codewaves.com/
